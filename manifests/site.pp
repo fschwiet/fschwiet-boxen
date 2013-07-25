@@ -88,4 +88,13 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+
+  include dropbox
+  include keepassx
+  include skype
+  include chrome
+  include firefox
+  include sublime_text_2
+  include vmware_fusion
+  include gimp  
 }
